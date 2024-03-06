@@ -1,0 +1,790 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "HorizontalProgressBarView"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "HorizontalProgressBarView"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "HorizontalProgressBarView",
+        "printedName": "HorizontalProgressBarView",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(progressValue:height:cornerRadius:scaleFactorOnDrag:foregroundColor:backgroundColor:onDragging:onDraggingEnded:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "HorizontalProgressBarView",
+                "printedName": "HorizontalProgressBarView.HorizontalProgressBarView",
+                "usr": "s:25HorizontalProgressBarViewAAV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Binding",
+                "printedName": "SwiftUI.Binding<Swift.Double>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "usr": "s:7SwiftUI7BindingV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "hasDefaultArg": true,
+                "usr": "s:14CoreFoundation7CGFloatV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "hasDefaultArg": true,
+                "usr": "s:14CoreFoundation7CGFloatV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "hasDefaultArg": true,
+                "usr": "s:Sd"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Color",
+                "printedName": "SwiftUI.Color",
+                "hasDefaultArg": true,
+                "usr": "s:7SwiftUI5ColorV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Color",
+                "printedName": "SwiftUI.Color",
+                "hasDefaultArg": true,
+                "usr": "s:7SwiftUI5ColorV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((Swift.Double) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.Double) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Double",
+                        "printedName": "Swift.Double",
+                        "usr": "s:Sd"
+                      }
+                    ]
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((Swift.Double) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.Double) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Double",
+                        "printedName": "Swift.Double",
+                        "usr": "s:Sd"
+                      }
+                    ]
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:25HorizontalProgressBarViewAAV13progressValue6height12cornerRadius17scaleFactorOnDrag15foregroundColor010backgroundO010onDragging0qR5EndedAB7SwiftUI7BindingVySdG_14CoreFoundation7CGFloatVAQSdAK0O0VASySdcSgATtcfc",
+            "mangledName": "$s25HorizontalProgressBarViewAAV13progressValue6height12cornerRadius17scaleFactorOnDrag15foregroundColor010backgroundO010onDragging0qR5EndedAB7SwiftUI7BindingVySdG_12CoreGraphics7CGFloatVAQSdAK0O0VASySdcSgATtcfc",
+            "moduleName": "HorizontalProgressBarView",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "body",
+            "printedName": "body",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ModifiedContent",
+                "printedName": "SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.VStack<SwiftUI.ModifiedContent<SwiftUI.VStack<SwiftUI.GeometryReader<SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<some SwiftUI.View, SwiftUI._AppearanceActionModifier>, SwiftUI._ValueActionModifier<CoreFoundation.CGSize>>>>, SwiftUI._OffsetEffect>>, SwiftUI._FlexFrameLayout>, SwiftUI._ValueActionModifier<Swift.Double>>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ModifiedContent",
+                    "printedName": "SwiftUI.ModifiedContent<SwiftUI.VStack<SwiftUI.ModifiedContent<SwiftUI.VStack<SwiftUI.GeometryReader<SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<some SwiftUI.View, SwiftUI._AppearanceActionModifier>, SwiftUI._ValueActionModifier<CoreFoundation.CGSize>>>>, SwiftUI._OffsetEffect>>, SwiftUI._FlexFrameLayout>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "VStack",
+                        "printedName": "SwiftUI.VStack<SwiftUI.ModifiedContent<SwiftUI.VStack<SwiftUI.GeometryReader<SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<some SwiftUI.View, SwiftUI._AppearanceActionModifier>, SwiftUI._ValueActionModifier<CoreFoundation.CGSize>>>>, SwiftUI._OffsetEffect>>",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ModifiedContent",
+                            "printedName": "SwiftUI.ModifiedContent<SwiftUI.VStack<SwiftUI.GeometryReader<SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<some SwiftUI.View, SwiftUI._AppearanceActionModifier>, SwiftUI._ValueActionModifier<CoreFoundation.CGSize>>>>, SwiftUI._OffsetEffect>",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "VStack",
+                                "printedName": "SwiftUI.VStack<SwiftUI.GeometryReader<SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<some SwiftUI.View, SwiftUI._AppearanceActionModifier>, SwiftUI._ValueActionModifier<CoreFoundation.CGSize>>>>",
+                                "children": [
+                                  {
+                                    "kind": "TypeNominal",
+                                    "name": "GeometryReader",
+                                    "printedName": "SwiftUI.GeometryReader<SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<some SwiftUI.View, SwiftUI._AppearanceActionModifier>, SwiftUI._ValueActionModifier<CoreFoundation.CGSize>>>",
+                                    "children": [
+                                      {
+                                        "kind": "TypeNominal",
+                                        "name": "ModifiedContent",
+                                        "printedName": "SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<some SwiftUI.View, SwiftUI._AppearanceActionModifier>, SwiftUI._ValueActionModifier<CoreFoundation.CGSize>>",
+                                        "children": [
+                                          {
+                                            "kind": "TypeNominal",
+                                            "name": "ModifiedContent",
+                                            "printedName": "SwiftUI.ModifiedContent<some SwiftUI.View, SwiftUI._AppearanceActionModifier>",
+                                            "children": [
+                                              {
+                                                "kind": "TypeNominal",
+                                                "name": "OpaqueTypeArchetype",
+                                                "printedName": "some SwiftUI.View",
+                                                "children": [
+                                                  {
+                                                    "kind": "TypeNominal",
+                                                    "name": "View",
+                                                    "printedName": "SwiftUI.View",
+                                                    "usr": "s:7SwiftUI4ViewP"
+                                                  }
+                                                ]
+                                              },
+                                              {
+                                                "kind": "TypeNominal",
+                                                "name": "_AppearanceActionModifier",
+                                                "printedName": "SwiftUI._AppearanceActionModifier",
+                                                "usr": "s:7SwiftUI25_AppearanceActionModifierV"
+                                              }
+                                            ],
+                                            "usr": "s:7SwiftUI15ModifiedContentV"
+                                          },
+                                          {
+                                            "kind": "TypeNominal",
+                                            "name": "_ValueActionModifier",
+                                            "printedName": "SwiftUI._ValueActionModifier<CoreFoundation.CGSize>",
+                                            "children": [
+                                              {
+                                                "kind": "TypeNominal",
+                                                "name": "CGSize",
+                                                "printedName": "CoreFoundation.CGSize",
+                                                "usr": "c:@S@CGSize"
+                                              }
+                                            ],
+                                            "usr": "s:7SwiftUI20_ValueActionModifierV"
+                                          }
+                                        ],
+                                        "usr": "s:7SwiftUI15ModifiedContentV"
+                                      }
+                                    ],
+                                    "usr": "s:7SwiftUI14GeometryReaderV"
+                                  }
+                                ],
+                                "usr": "s:7SwiftUI6VStackV"
+                              },
+                              {
+                                "kind": "TypeNominal",
+                                "name": "_OffsetEffect",
+                                "printedName": "SwiftUI._OffsetEffect",
+                                "usr": "s:7SwiftUI13_OffsetEffectV"
+                              }
+                            ],
+                            "usr": "s:7SwiftUI15ModifiedContentV"
+                          }
+                        ],
+                        "usr": "s:7SwiftUI6VStackV"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "_FlexFrameLayout",
+                        "printedName": "SwiftUI._FlexFrameLayout",
+                        "usr": "s:7SwiftUI16_FlexFrameLayoutV"
+                      }
+                    ],
+                    "usr": "s:7SwiftUI15ModifiedContentV"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "_ValueActionModifier",
+                    "printedName": "SwiftUI._ValueActionModifier<Swift.Double>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Double",
+                        "printedName": "Swift.Double",
+                        "usr": "s:Sd"
+                      }
+                    ],
+                    "usr": "s:7SwiftUI20_ValueActionModifierV"
+                  }
+                ],
+                "usr": "s:7SwiftUI15ModifiedContentV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:25HorizontalProgressBarViewAAV4bodyQrvp",
+            "mangledName": "$s25HorizontalProgressBarViewAAV4bodyQrvp",
+            "moduleName": "HorizontalProgressBarView",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ModifiedContent",
+                    "printedName": "SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.VStack<SwiftUI.ModifiedContent<SwiftUI.VStack<SwiftUI.GeometryReader<SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<some SwiftUI.View, SwiftUI._AppearanceActionModifier>, SwiftUI._ValueActionModifier<CoreFoundation.CGSize>>>>, SwiftUI._OffsetEffect>>, SwiftUI._FlexFrameLayout>, SwiftUI._ValueActionModifier<Swift.Double>>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ModifiedContent",
+                        "printedName": "SwiftUI.ModifiedContent<SwiftUI.VStack<SwiftUI.ModifiedContent<SwiftUI.VStack<SwiftUI.GeometryReader<SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<some SwiftUI.View, SwiftUI._AppearanceActionModifier>, SwiftUI._ValueActionModifier<CoreFoundation.CGSize>>>>, SwiftUI._OffsetEffect>>, SwiftUI._FlexFrameLayout>",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "VStack",
+                            "printedName": "SwiftUI.VStack<SwiftUI.ModifiedContent<SwiftUI.VStack<SwiftUI.GeometryReader<SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<some SwiftUI.View, SwiftUI._AppearanceActionModifier>, SwiftUI._ValueActionModifier<CoreFoundation.CGSize>>>>, SwiftUI._OffsetEffect>>",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "ModifiedContent",
+                                "printedName": "SwiftUI.ModifiedContent<SwiftUI.VStack<SwiftUI.GeometryReader<SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<some SwiftUI.View, SwiftUI._AppearanceActionModifier>, SwiftUI._ValueActionModifier<CoreFoundation.CGSize>>>>, SwiftUI._OffsetEffect>",
+                                "children": [
+                                  {
+                                    "kind": "TypeNominal",
+                                    "name": "VStack",
+                                    "printedName": "SwiftUI.VStack<SwiftUI.GeometryReader<SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<some SwiftUI.View, SwiftUI._AppearanceActionModifier>, SwiftUI._ValueActionModifier<CoreFoundation.CGSize>>>>",
+                                    "children": [
+                                      {
+                                        "kind": "TypeNominal",
+                                        "name": "GeometryReader",
+                                        "printedName": "SwiftUI.GeometryReader<SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<some SwiftUI.View, SwiftUI._AppearanceActionModifier>, SwiftUI._ValueActionModifier<CoreFoundation.CGSize>>>",
+                                        "children": [
+                                          {
+                                            "kind": "TypeNominal",
+                                            "name": "ModifiedContent",
+                                            "printedName": "SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<some SwiftUI.View, SwiftUI._AppearanceActionModifier>, SwiftUI._ValueActionModifier<CoreFoundation.CGSize>>",
+                                            "children": [
+                                              {
+                                                "kind": "TypeNominal",
+                                                "name": "ModifiedContent",
+                                                "printedName": "SwiftUI.ModifiedContent<some SwiftUI.View, SwiftUI._AppearanceActionModifier>",
+                                                "children": [
+                                                  {
+                                                    "kind": "TypeNominal",
+                                                    "name": "OpaqueTypeArchetype",
+                                                    "printedName": "some SwiftUI.View",
+                                                    "children": [
+                                                      {
+                                                        "kind": "TypeNominal",
+                                                        "name": "View",
+                                                        "printedName": "SwiftUI.View",
+                                                        "usr": "s:7SwiftUI4ViewP"
+                                                      }
+                                                    ]
+                                                  },
+                                                  {
+                                                    "kind": "TypeNominal",
+                                                    "name": "_AppearanceActionModifier",
+                                                    "printedName": "SwiftUI._AppearanceActionModifier",
+                                                    "usr": "s:7SwiftUI25_AppearanceActionModifierV"
+                                                  }
+                                                ],
+                                                "usr": "s:7SwiftUI15ModifiedContentV"
+                                              },
+                                              {
+                                                "kind": "TypeNominal",
+                                                "name": "_ValueActionModifier",
+                                                "printedName": "SwiftUI._ValueActionModifier<CoreFoundation.CGSize>",
+                                                "children": [
+                                                  {
+                                                    "kind": "TypeNominal",
+                                                    "name": "CGSize",
+                                                    "printedName": "CoreFoundation.CGSize",
+                                                    "usr": "c:@S@CGSize"
+                                                  }
+                                                ],
+                                                "usr": "s:7SwiftUI20_ValueActionModifierV"
+                                              }
+                                            ],
+                                            "usr": "s:7SwiftUI15ModifiedContentV"
+                                          }
+                                        ],
+                                        "usr": "s:7SwiftUI14GeometryReaderV"
+                                      }
+                                    ],
+                                    "usr": "s:7SwiftUI6VStackV"
+                                  },
+                                  {
+                                    "kind": "TypeNominal",
+                                    "name": "_OffsetEffect",
+                                    "printedName": "SwiftUI._OffsetEffect",
+                                    "usr": "s:7SwiftUI13_OffsetEffectV"
+                                  }
+                                ],
+                                "usr": "s:7SwiftUI15ModifiedContentV"
+                              }
+                            ],
+                            "usr": "s:7SwiftUI6VStackV"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "_FlexFrameLayout",
+                            "printedName": "SwiftUI._FlexFrameLayout",
+                            "usr": "s:7SwiftUI16_FlexFrameLayoutV"
+                          }
+                        ],
+                        "usr": "s:7SwiftUI15ModifiedContentV"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "_ValueActionModifier",
+                        "printedName": "SwiftUI._ValueActionModifier<Swift.Double>",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Double",
+                            "printedName": "Swift.Double",
+                            "usr": "s:Sd"
+                          }
+                        ],
+                        "usr": "s:7SwiftUI20_ValueActionModifierV"
+                      }
+                    ],
+                    "usr": "s:7SwiftUI15ModifiedContentV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:25HorizontalProgressBarViewAAV4bodyQrvg",
+                "mangledName": "$s25HorizontalProgressBarViewAAV4bodyQrvg",
+                "moduleName": "HorizontalProgressBarView",
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:25HorizontalProgressBarViewAAV",
+        "mangledName": "$s25HorizontalProgressBarViewAAV",
+        "moduleName": "HorizontalProgressBarView",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "View",
+            "printedName": "View",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Body",
+                "printedName": "Body",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ModifiedContent",
+                    "printedName": "SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.VStack<SwiftUI.ModifiedContent<SwiftUI.VStack<SwiftUI.GeometryReader<SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<some SwiftUI.View, SwiftUI._AppearanceActionModifier>, SwiftUI._ValueActionModifier<CoreFoundation.CGSize>>>>, SwiftUI._OffsetEffect>>, SwiftUI._FlexFrameLayout>, SwiftUI._ValueActionModifier<Swift.Double>>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ModifiedContent",
+                        "printedName": "SwiftUI.ModifiedContent<SwiftUI.VStack<SwiftUI.ModifiedContent<SwiftUI.VStack<SwiftUI.GeometryReader<SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<some SwiftUI.View, SwiftUI._AppearanceActionModifier>, SwiftUI._ValueActionModifier<CoreFoundation.CGSize>>>>, SwiftUI._OffsetEffect>>, SwiftUI._FlexFrameLayout>",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "VStack",
+                            "printedName": "SwiftUI.VStack<SwiftUI.ModifiedContent<SwiftUI.VStack<SwiftUI.GeometryReader<SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<some SwiftUI.View, SwiftUI._AppearanceActionModifier>, SwiftUI._ValueActionModifier<CoreFoundation.CGSize>>>>, SwiftUI._OffsetEffect>>",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "ModifiedContent",
+                                "printedName": "SwiftUI.ModifiedContent<SwiftUI.VStack<SwiftUI.GeometryReader<SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<some SwiftUI.View, SwiftUI._AppearanceActionModifier>, SwiftUI._ValueActionModifier<CoreFoundation.CGSize>>>>, SwiftUI._OffsetEffect>",
+                                "children": [
+                                  {
+                                    "kind": "TypeNominal",
+                                    "name": "VStack",
+                                    "printedName": "SwiftUI.VStack<SwiftUI.GeometryReader<SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<some SwiftUI.View, SwiftUI._AppearanceActionModifier>, SwiftUI._ValueActionModifier<CoreFoundation.CGSize>>>>",
+                                    "children": [
+                                      {
+                                        "kind": "TypeNominal",
+                                        "name": "GeometryReader",
+                                        "printedName": "SwiftUI.GeometryReader<SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<some SwiftUI.View, SwiftUI._AppearanceActionModifier>, SwiftUI._ValueActionModifier<CoreFoundation.CGSize>>>",
+                                        "children": [
+                                          {
+                                            "kind": "TypeNominal",
+                                            "name": "ModifiedContent",
+                                            "printedName": "SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<some SwiftUI.View, SwiftUI._AppearanceActionModifier>, SwiftUI._ValueActionModifier<CoreFoundation.CGSize>>",
+                                            "children": [
+                                              {
+                                                "kind": "TypeNominal",
+                                                "name": "ModifiedContent",
+                                                "printedName": "SwiftUI.ModifiedContent<some SwiftUI.View, SwiftUI._AppearanceActionModifier>",
+                                                "children": [
+                                                  {
+                                                    "kind": "TypeNominal",
+                                                    "name": "OpaqueTypeArchetype",
+                                                    "printedName": "some SwiftUI.View",
+                                                    "children": [
+                                                      {
+                                                        "kind": "TypeNominal",
+                                                        "name": "View",
+                                                        "printedName": "SwiftUI.View",
+                                                        "usr": "s:7SwiftUI4ViewP"
+                                                      }
+                                                    ]
+                                                  },
+                                                  {
+                                                    "kind": "TypeNominal",
+                                                    "name": "_AppearanceActionModifier",
+                                                    "printedName": "SwiftUI._AppearanceActionModifier",
+                                                    "usr": "s:7SwiftUI25_AppearanceActionModifierV"
+                                                  }
+                                                ],
+                                                "usr": "s:7SwiftUI15ModifiedContentV"
+                                              },
+                                              {
+                                                "kind": "TypeNominal",
+                                                "name": "_ValueActionModifier",
+                                                "printedName": "SwiftUI._ValueActionModifier<CoreFoundation.CGSize>",
+                                                "children": [
+                                                  {
+                                                    "kind": "TypeNominal",
+                                                    "name": "CGSize",
+                                                    "printedName": "CoreFoundation.CGSize",
+                                                    "usr": "c:@S@CGSize"
+                                                  }
+                                                ],
+                                                "usr": "s:7SwiftUI20_ValueActionModifierV"
+                                              }
+                                            ],
+                                            "usr": "s:7SwiftUI15ModifiedContentV"
+                                          }
+                                        ],
+                                        "usr": "s:7SwiftUI14GeometryReaderV"
+                                      }
+                                    ],
+                                    "usr": "s:7SwiftUI6VStackV"
+                                  },
+                                  {
+                                    "kind": "TypeNominal",
+                                    "name": "_OffsetEffect",
+                                    "printedName": "SwiftUI._OffsetEffect",
+                                    "usr": "s:7SwiftUI13_OffsetEffectV"
+                                  }
+                                ],
+                                "usr": "s:7SwiftUI15ModifiedContentV"
+                              }
+                            ],
+                            "usr": "s:7SwiftUI6VStackV"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "_FlexFrameLayout",
+                            "printedName": "SwiftUI._FlexFrameLayout",
+                            "usr": "s:7SwiftUI16_FlexFrameLayoutV"
+                          }
+                        ],
+                        "usr": "s:7SwiftUI15ModifiedContentV"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "_ValueActionModifier",
+                        "printedName": "SwiftUI._ValueActionModifier<Swift.Double>",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Double",
+                            "printedName": "Swift.Double",
+                            "usr": "s:Sd"
+                          }
+                        ],
+                        "usr": "s:7SwiftUI20_ValueActionModifierV"
+                      }
+                    ],
+                    "usr": "s:7SwiftUI15ModifiedContentV"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7SwiftUI4ViewP",
+            "mangledName": "$s7SwiftUI4ViewP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/user\/Documents\/Projects\/Sandbox\/swift\/widgets\/HorizontalProgressBarView\/HorizontalProgressBarView\/ProgressBarView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 149,
+      "length": 2,
+      "value": "30"
+    },
+    {
+      "filePath": "\/Users\/user\/Documents\/Projects\/Sandbox\/swift\/widgets\/HorizontalProgressBarView\/HorizontalProgressBarView\/ProgressBarView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 191,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/user\/Documents\/Projects\/Sandbox\/swift\/widgets\/HorizontalProgressBarView\/HorizontalProgressBarView\/ProgressBarView.swift",
+      "kind": "FloatLiteral",
+      "offset": 236,
+      "length": 3,
+      "value": "1.5"
+    },
+    {
+      "filePath": "\/Users\/user\/Documents\/Projects\/Sandbox\/swift\/widgets\/HorizontalProgressBarView\/HorizontalProgressBarView\/ProgressBarView.swift",
+      "kind": "FloatLiteral",
+      "offset": 342,
+      "length": 3,
+      "value": "0.5"
+    },
+    {
+      "filePath": "\/Users\/user\/Documents\/Projects\/Sandbox\/swift\/widgets\/HorizontalProgressBarView\/HorizontalProgressBarView\/ProgressBarView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 508,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/user\/Documents\/Projects\/Sandbox\/swift\/widgets\/HorizontalProgressBarView\/HorizontalProgressBarView\/ProgressBarView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 573,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/user\/Documents\/Projects\/Sandbox\/swift\/widgets\/HorizontalProgressBarView\/HorizontalProgressBarView\/ProgressBarView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 625,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/user\/Documents\/Projects\/Sandbox\/swift\/widgets\/HorizontalProgressBarView\/HorizontalProgressBarView\/ProgressBarView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 742,
+      "length": 2,
+      "value": "30"
+    },
+    {
+      "filePath": "\/Users\/user\/Documents\/Projects\/Sandbox\/swift\/widgets\/HorizontalProgressBarView\/HorizontalProgressBarView\/ProgressBarView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 816,
+      "length": 2,
+      "value": "30"
+    },
+    {
+      "filePath": "\/Users\/user\/Documents\/Projects\/Sandbox\/swift\/widgets\/HorizontalProgressBarView\/HorizontalProgressBarView\/ProgressBarView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 844,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/user\/Documents\/Projects\/Sandbox\/swift\/widgets\/HorizontalProgressBarView\/HorizontalProgressBarView\/ProgressBarView.swift",
+      "kind": "FloatLiteral",
+      "offset": 875,
+      "length": 3,
+      "value": "1.5"
+    },
+    {
+      "filePath": "\/Users\/user\/Documents\/Projects\/Sandbox\/swift\/widgets\/HorizontalProgressBarView\/HorizontalProgressBarView\/ProgressBarView.swift",
+      "kind": "FloatLiteral",
+      "offset": 953,
+      "length": 3,
+      "value": "0.5"
+    },
+    {
+      "filePath": "\/Users\/user\/Documents\/Projects\/Sandbox\/swift\/widgets\/HorizontalProgressBarView\/HorizontalProgressBarView\/ProgressBarView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1629,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/user\/Documents\/Projects\/Sandbox\/swift\/widgets\/HorizontalProgressBarView\/HorizontalProgressBarView\/ProgressBarView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2198,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/user\/Documents\/Projects\/Sandbox\/swift\/widgets\/HorizontalProgressBarView\/HorizontalProgressBarView\/ProgressBarView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2429,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/user\/Documents\/Projects\/Sandbox\/swift\/widgets\/HorizontalProgressBarView\/HorizontalProgressBarView\/ProgressBarView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2661,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/user\/Documents\/Projects\/Sandbox\/swift\/widgets\/HorizontalProgressBarView\/HorizontalProgressBarView\/ProgressBarView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2722,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/user\/Documents\/Projects\/Sandbox\/swift\/widgets\/HorizontalProgressBarView\/HorizontalProgressBarView\/ProgressBarView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2981,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/user\/Documents\/Projects\/Sandbox\/swift\/widgets\/HorizontalProgressBarView\/HorizontalProgressBarView\/ProgressBarView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3132,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/user\/Documents\/Projects\/Sandbox\/swift\/widgets\/HorizontalProgressBarView\/HorizontalProgressBarView\/ProgressBarView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3193,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/user\/Documents\/Projects\/Sandbox\/swift\/widgets\/HorizontalProgressBarView\/HorizontalProgressBarView\/ProgressBarView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3321,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/user\/Documents\/Projects\/Sandbox\/swift\/widgets\/HorizontalProgressBarView\/HorizontalProgressBarView\/ProgressBarView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3494,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/user\/Documents\/Projects\/Sandbox\/swift\/widgets\/HorizontalProgressBarView\/HorizontalProgressBarView\/ProgressBarView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3549,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/user\/Documents\/Projects\/Sandbox\/swift\/widgets\/HorizontalProgressBarView\/HorizontalProgressBarView\/ProgressBarView.swift",
+      "kind": "FloatLiteral",
+      "offset": 3765,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/user\/Documents\/Projects\/Sandbox\/swift\/widgets\/HorizontalProgressBarView\/HorizontalProgressBarView\/ProgressBarView.swift",
+      "kind": "FloatLiteral",
+      "offset": 3814,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/user\/Documents\/Projects\/Sandbox\/swift\/widgets\/HorizontalProgressBarView\/HorizontalProgressBarView\/ProgressBarView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4489,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/user\/Documents\/Projects\/Sandbox\/swift\/widgets\/HorizontalProgressBarView\/HorizontalProgressBarView\/ProgressBarView.swift",
+      "kind": "FloatLiteral",
+      "offset": 4894,
+      "length": 3,
+      "value": "0.5"
+    },
+    {
+      "filePath": "\/Users\/user\/Documents\/Projects\/Sandbox\/swift\/widgets\/HorizontalProgressBarView\/HorizontalProgressBarView\/ProgressBarView.swift",
+      "kind": "StringLiteral",
+      "offset": 4965,
+      "length": 19,
+      "value": "\"onDragging, value\""
+    },
+    {
+      "filePath": "\/Users\/user\/Documents\/Projects\/Sandbox\/swift\/widgets\/HorizontalProgressBarView\/HorizontalProgressBarView\/ProgressBarView.swift",
+      "kind": "StringLiteral",
+      "offset": 5050,
+      "length": 24,
+      "value": "\"onDraggingEnded, value\""
+    },
+    {
+      "filePath": "\/Users\/user\/Documents\/Projects\/Sandbox\/swift\/widgets\/HorizontalProgressBarView\/HorizontalProgressBarView\/ProgressBarView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5102,
+      "length": 2,
+      "value": "30"
+    }
+  ]
+}

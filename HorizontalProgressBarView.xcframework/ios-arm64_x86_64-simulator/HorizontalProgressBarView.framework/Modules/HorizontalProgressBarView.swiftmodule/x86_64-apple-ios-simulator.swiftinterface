@@ -1,0 +1,17 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.8.1 (swiftlang-5.8.0.124.5 clang-1403.0.22.11.100)
+// swift-module-flags: -target x86_64-apple-ios14.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name HorizontalProgressBarView
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+@_exported import HorizontalProgressBarView
+import Swift
+import SwiftUI
+import UIKit
+import _Concurrency
+import _StringProcessing
+public struct HorizontalProgressBarView : SwiftUI.View {
+  public init(progressValue: SwiftUI.Binding<Swift.Double>, height: CoreFoundation.CGFloat = 30, cornerRadius: CoreFoundation.CGFloat = 5, scaleFactorOnDrag: Swift.Double = 1.5, foregroundColor: SwiftUI.Color = .white, backgroundColor: SwiftUI.Color = .white.opacity(0.5), onDragging: ((Swift.Double) -> Swift.Void)? = nil, onDraggingEnded: ((Swift.Double) -> Swift.Void)? = nil)
+  @_Concurrency.MainActor(unsafe) public var body: some SwiftUI.View {
+    get
+  }
+  public typealias Body = @_opaqueReturnTypeOf("$s25HorizontalProgressBarViewAAV4bodyQrvp", 0) __
+}

@@ -1,0 +1,11 @@
+framework module HorizontalProgressBarView {
+  umbrella header "HorizontalProgressBarView.h"
+
+  export *
+  module * { export * }
+}
+
+module HorizontalProgressBarView.Swift {
+  header "HorizontalProgressBarView-Swift.h"
+  requires objc
+}
